@@ -1,0 +1,1 @@
+1.构造函数参数存在继承关系的，就会产生ambiguousConstructors

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<!-- a stateful bean deployed as a prototype (non-singleton) -->
+	<!-- 在这里需要设置scope为prototype,如果设置singleton,则返回的是同一个对象 -->
+	<bean id="myCommand" class="com.gwg.spring.lookupMethod.test.AsyncCommand" scope="prototype">
+		<!-- inject dependencies here as required -->
+	</bean>
+
+	<!-- commandProcessor uses statefulCommandHelper -->
+	<bean id="commandManager" class="com.gwg.spring.lookupMethod.test.CommandManager">
+	    <!-- lookup-method方式注入依赖于bean是prototype，还是singleton，如果是singleton，将使用获取到同一个实例 -->
+		<lookup-method name="createCommand" bean="myCommand" />
+	</bean>
+	
+</beans>

@@ -1,0 +1,10 @@
+一.Spring引入属性文件的两种方式：
+1.使用spring提供的PropertyPlaceholderConfigurer。配置实例如下：
+<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
+    <property name="location">  
+        <value>/WEB-INF/jabc.properties</value>  
+    </property>  
+    <property name="fileEncoding" value="utf-8" /> 
+</bean>
+2.使用spring <context />内置标签来读取文件
+<context:property-placeholder location="WEB-INF/jdbc.properties" file-encoding="utf8/>

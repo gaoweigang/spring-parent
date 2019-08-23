@@ -1,0 +1,6 @@
+###synthetic字段和isSynthetic()方法
+synthetic字段：jdk官方解释是如果此成员是编译器引入的，则返回 true；否则，返回 false。
+
+对于synthetic好理解：Java编译器引入的字段、方法或类。
+java编译器在什么情况下会引入类 ？ 不知道
+java编译器在什么情况下会引入字段？

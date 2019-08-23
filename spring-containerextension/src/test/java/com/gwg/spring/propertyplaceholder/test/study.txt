@@ -1,0 +1,3 @@
+#Spring属性占位符
+1.Spring属性占位符的前缀默认是"${",后缀默认是"}"
+2.我们可以通过配置PropertyPlaceholderConfigurer类的placeholderPrefix和placeholderSuffix属性来指定属性占位符的前缀和后缀

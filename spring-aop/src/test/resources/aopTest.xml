@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+	<bean id="testBean" class="com.gwg.spring.core.aop.test.TestBean" />
+	
+	<!--  -->
+	<bean id="timeAspect" class="com.gwg.spring.core.aop.test.TimeAspect" />
+	<aop:config>
+		<aop:aspect id="ap1" ref="timeAspect">
+		    <!-- com.gwg.spring.core.aop.test.TestBean类中的所有方法添加 -->
+			<aop:pointcut id="m1" expression="execution(* com.gwg.spring.core.aop.test.TestBean.*(..))" />
+			<aop:before method="printTime" pointcut-ref="m1" />
+		</aop:aspect>
+	</aop:config>
+
+
+</beans>

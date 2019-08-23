@@ -1,0 +1,9 @@
+#一：此讨论仅限在jdk1.7中：
+1.在jdk1.7中使用Modifier.toString(method.getModifiers())来获取方法访问修饰符中可能会得有 volatile?
+我们知道方法是不能被volatile修饰的，volatile只能用来修饰字段以保证访问该变量的线程必须总是使自己对该变量的私有副本与内存中的主副本保持一致。
+但是为什么调用Modifier.toString(method.getModifiers())会返回volatle？原因在于
+桥接方法(即被ACC_BRIDGE修饰的方法)访问标志值与volatile字段访问标志值相等(即0x0040),如果方法访问标志值是0x0040,该方法就会返回ACC_VOLATILE,
+而不是ACC_BRIDGE,因为ACC_BRIDGE不是关键字，不可能返回ACC_BRIDGE,在java代码层面并没有ACC_BRIDGE和ACC_SYNTHETIC，
+ACC_BRIDGE和ACC_SYNTHETIC是由JAVA编译器自动产生的,分析方法或字段的访问修饰符最准确的办法是直接分析字段/方法访问标志值。
+
+

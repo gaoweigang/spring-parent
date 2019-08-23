@@ -1,0 +1,21 @@
+1.今天在学习asm的时候遇到ACC_BRIDGE(桥接方法)？
+
+2.查看字符编码
+http://www.mytju.com/classcode/tools/encode_utf8.asp
+
+3.二进制与16进制转换
+http://tool.oschina.net/hexconvert/
+
+4.'\u0001'到'\u007f'之间的字符(相当于1~127的ASCII码)的缩略编码使用一个字节表示。
+解释:① \u 说明是个unicode字符， java中可以  char c='\u2605';得到这个字符。
+②\u后面的0001和007f是十六进制表示，分别表示1和127
+
+
+5.参考Unicode和UTF-8以及UTF-16
+https://segmentfault.com/a/1190000012692022
+
+6.Unicode和UTF编码转换
+http://www.qqxiuzi.cn/bianma/Unicode-UTF.php
+
+6.Java中的char是Utf-8编码(思考：证明是Utf-8编码，不是Utf-16编码)
+证明

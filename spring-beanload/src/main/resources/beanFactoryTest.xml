@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd"
+           default-lazy-init="true">
+
+  <!-- 单例 -->
+  <bean  id="myTestBean" name="myTestBeanOne;testBeanOne,testBeanTwo" class="com.gwg.hello.MyTestBean">
+    <description>this is a  test bean</description>
+    <constructor-arg value="gaoweiang" type="java.lang.String"></constructor-arg>
+    <!-- myTestBean 与 myTestBeanTwo 循环依赖 -->
+    <property name="myTestBeanTwo" ref="myTestBeanTwo"></property>
+  </bean>
+  
+  <!-- singleton ，bean的名称定义为其他bean的别名-->
+  <bean  id="myTestBeanTwo" class="com.gwg.hello.MyTestBeanTwo" scope="singleton">
+     <!-- 如果使用传统的方式的话， MyTestBeanTwo的每个属性分别对应一个property元素标签。
+     如果用FactoryBean的方式实现就会灵活一些-->
+      <property name="testStr" value="gaoweigangTwo"></property>
+      <!-- myTestBean 与 myTestBeanTwo 循环依赖 -->
+      <property name="myTestBean" ref="testBeanOne"></property>
+  </bean>
+  
+   <!-- FactoryBean-->
+  <bean  id="factoryBean" class="com.gwg.hello.CarFactoryBean" scope="singleton">
+      <constructor-arg value="200,300,400" type="java.lang.String"></constructor-arg>
+  </bean>
+  
+
+</beans>

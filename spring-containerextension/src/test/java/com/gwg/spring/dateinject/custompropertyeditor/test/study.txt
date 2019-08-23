@@ -1,0 +1,32 @@
+#增加属性注册编辑器
+在Spring DI注入的时候可以把普通属性注入进来，但是像Date类型就无法被识别。
+1.使用自定义属性编辑器
+
+
+2.注册Spring自带的属性编辑器CustomDateEditor
+
+
+
+	/**
+	 * Convert the given value for the specified property to the latter's type.
+	 * <p>This method is only intended for optimizations in a BeanFactory.
+	 * Use the {@code convertIfNecessary} methods for programmatic conversion.
+	 * @param value the value to convert
+	 * @param propertyName the target property
+	 * (note that nested or indexed properties are not supported here)
+	 * @return the new value, possibly the result of type conversion
+	 * @throws TypeMismatchException if type conversion failed
+	 */
+	public Object convertForProperty(Object value, String propertyName) throws TypeMismatchException {
+		CachedIntrospectionResults cachedIntrospectionResults = getCachedIntrospectionResults();
+		PropertyDescriptor pd = cachedIntrospectionResults.getPropertyDescriptor(propertyName);
+		if (pd == null) {
+			throw new InvalidPropertyException(getRootClass(), getNestedPath() + propertyName,
+					"No property '" + propertyName + "' found");
+		}
+		TypeDescriptor td = cachedIntrospectionResults.getTypeDescriptor(pd);
+		if (td == null) {
+			td = cachedIntrospectionResults.addTypeDescriptor(pd, new TypeDescriptor(property(pd)));
+		}
+		return convertForProperty(propertyName, null, value, td);
+	}

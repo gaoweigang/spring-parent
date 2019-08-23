@@ -1,0 +1,129 @@
+[INFO] 2018-01-22 14:06:12.126 [main] [com.gwg.aspect.AspectExample]17 - 测试开始 
+[INFO] 2018-01-22 14:06:12.170 [main] [com.gwg.aspect.AspectClasssAdapter]38 - 访问方法 start.... 
+[INFO] 2018-01-22 14:06:12.187 [main] [com.gwg.aspect.AspectClasssAdapter]38 - 访问方法 start.... 
+[INFO] 2018-01-22 14:08:05.269 [main] [com.gwg.aspect.AspectExample]17 - 测试开始 
+[INFO] 2018-01-22 14:08:05.292 [main] [com.gwg.aspect.AspectClasssAdapter]38 - 访问方法 start.... 
+[INFO] 2018-01-22 14:08:05.293 [main] [com.gwg.aspect.AspectClasssAdapter]39 - 访问方法访问修饰符:1,名称为：<init>，方法描述符：()V 
+[INFO] 2018-01-22 14:08:05.298 [main] [com.gwg.aspect.AspectClasssAdapter]38 - 访问方法 start.... 
+[INFO] 2018-01-22 14:08:05.299 [main] [com.gwg.aspect.AspectClasssAdapter]39 - 访问方法访问修饰符:1,名称为：dealBusinessCode，方法描述符：()V 
+[INFO] 2018-01-22 14:08:28.871 [main] [com.gwg.aspect.AspectExample]17 - 测试开始 
+[INFO] 2018-01-22 14:08:28.896 [main] [com.gwg.aspect.AspectClasssAdapter]40 - 访问方法 start.... 
+[INFO] 2018-01-22 14:08:28.896 [main] [com.gwg.aspect.AspectClasssAdapter]41 - 访问方法访问修饰符:public,名称为：<init>，方法描述符：()V 
+[INFO] 2018-01-22 14:08:28.904 [main] [com.gwg.aspect.AspectClasssAdapter]40 - 访问方法 start.... 
+[INFO] 2018-01-22 14:08:28.905 [main] [com.gwg.aspect.AspectClasssAdapter]41 - 访问方法访问修饰符:public,名称为：dealBusinessCode，方法描述符：()V 
+[INFO] 2018-01-22 14:13:31.589 [main] [com.gwg.aspect.AspectExample]17 - 测试开始 
+[INFO] 2018-01-22 14:13:31.631 [main] [com.gwg.aspect.AspectClasssAdapter]40 - 访问方法 start.... 
+[INFO] 2018-01-22 14:13:31.632 [main] [com.gwg.aspect.AspectClasssAdapter]41 - 访问方法访问修饰符:public,名称为：<init>，方法描述符：()V 
+[INFO] 2018-01-22 14:13:31.638 [main] [com.gwg.aspect.AspectClasssAdapter]40 - 访问方法 start.... 
+[INFO] 2018-01-22 14:13:31.638 [main] [com.gwg.aspect.AspectClasssAdapter]41 - 访问方法访问修饰符:public,名称为：dealBusinessCode，方法描述符：()V 
+[INFO] 2018-01-22 14:15:03.875 [main] [com.gwg.aspect.AspectExample]17 - 测试开始 
+[INFO] 2018-01-22 14:15:03.896 [main] [com.gwg.aspect.AspectClasssAdapter]40 - 访问方法 start.... 
+[INFO] 2018-01-22 14:15:03.896 [main] [com.gwg.aspect.AspectClasssAdapter]41 - 访问方法访问修饰符:public,名称为：<init>，方法描述符：()V 
+[INFO] 2018-01-22 14:15:03.902 [main] [com.gwg.aspect.AspectClasssAdapter]40 - 访问方法 start.... 
+[INFO] 2018-01-22 14:15:03.903 [main] [com.gwg.aspect.AspectClasssAdapter]41 - 访问方法访问修饰符:public,名称为：test，方法描述符：()V 
+[INFO] 2018-01-22 14:15:03.903 [main] [com.gwg.aspect.DelegateAspectMethodAdapter]20 - 方法注解：Lcom/gwg/aspect/Pointcut;   :   true 
+[INFO] 2018-01-22 14:15:03.903 [main] [com.gwg.aspect.AspectClasssAdapter]40 - 访问方法 start.... 
+[INFO] 2018-01-22 14:15:03.904 [main] [com.gwg.aspect.AspectClasssAdapter]41 - 访问方法访问修饰符:public,名称为：beforeTest，方法描述符：()V 
+[INFO] 2018-01-22 20:27:51.265 [main] [com.gwg.java.core.ShiftOperatorTest]37 - classFileFullName:com.gwg.java.core.ShiftOperatorTest 
+[INFO] 2018-01-22 20:30:28.473 [main] [com.gwg.java.core.ShiftOperatorTest]37 - classFileFullName:com.gwg.java.core.ShiftOperatorTest 
+[INFO] 2018-01-22 20:30:28.484 [main] [com.gwg.java.core.ShiftOperatorTest]39 - lastDotIndex:17 
+[INFO] 2018-01-22 20:30:28.484 [main] [com.gwg.java.core.ShiftOperatorTest]41 - className:ShiftOperatorTest.class 
+[INFO] 2018-01-22 21:03:33.149 [main] [com.gwg.java.core.ShiftOperatorTest]44 - classFileFullName:com.gwg.java.core.ShiftOperatorTest 
+[INFO] 2018-01-22 21:03:33.154 [main] [com.gwg.java.core.ShiftOperatorTest]46 - lastDotIndex:17 
+[INFO] 2018-01-22 21:03:33.155 [main] [com.gwg.java.core.ShiftOperatorTest]48 - className:ShiftOperatorTest.class 
+[INFO] 2018-01-22 21:03:33.204 [main] [com.gwg.java.core.ShiftOperatorTest]53 - map大小:3 
+[INFO] 2018-01-22 21:05:40.093 [main] [com.gwg.java.core.ShiftOperatorTest]44 - classFileFullName:com.gwg.java.core.ShiftOperatorTest 
+[INFO] 2018-01-22 21:05:40.100 [main] [com.gwg.java.core.ShiftOperatorTest]46 - lastDotIndex:17 
+[INFO] 2018-01-22 21:05:40.100 [main] [com.gwg.java.core.ShiftOperatorTest]48 - className:ShiftOperatorTest.class 
+[INFO] 2018-01-22 21:05:40.115 [main] [com.gwg.java.core.ShiftOperatorTest]53 - map大小:3 
+[INFO] 2018-01-22 21:06:30.582 [main] [com.gwg.java.core.ShiftOperatorTest]44 - classFileFullName:com.gwg.java.core.ShiftOperatorTest 
+[INFO] 2018-01-22 21:06:30.587 [main] [com.gwg.java.core.ShiftOperatorTest]46 - lastDotIndex:17 
+[INFO] 2018-01-22 21:06:30.587 [main] [com.gwg.java.core.ShiftOperatorTest]48 - className:ShiftOperatorTest.class 
+[INFO] 2018-01-22 21:06:30.606 [main] [com.gwg.java.core.ShiftOperatorTest]53 - map大小:3 
+[INFO] 2018-01-22 21:10:13.132 [main] [com.gwg.java.core.ShiftOperatorTest]45 - classFileFullName:com.gwg.java.core.TestBean 
+[INFO] 2018-01-22 21:10:13.138 [main] [com.gwg.java.core.ShiftOperatorTest]47 - lastDotIndex:17 
+[INFO] 2018-01-22 21:10:13.138 [main] [com.gwg.java.core.ShiftOperatorTest]49 - className:TestBean.class 
+[INFO] 2018-01-22 21:10:13.159 [main] [com.gwg.java.core.ShiftOperatorTest]54 - map大小:2 
+[INFO] 2018-01-22 22:58:37.715 [main] [com.gwg.java.core.ShiftOperatorTest]45 - classFileFullName:com.gwg.java.core.TestBean 
+[INFO] 2018-01-22 22:58:37.722 [main] [com.gwg.java.core.ShiftOperatorTest]47 - lastDotIndex:17 
+[INFO] 2018-01-22 22:58:37.722 [main] [com.gwg.java.core.ShiftOperatorTest]49 - className:TestBean.class 
+[INFO] 2018-01-22 22:58:37.903 [main] [com.gwg.java.core.ShiftOperatorTest]54 - map大小:4 
+[INFO] 2018-01-23 15:04:34.500 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]30 - classFileFullName:com.gwg.asm.methodparam.TestBean 
+[INFO] 2018-01-23 15:04:34.508 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]32 - lastDotIndex:23 
+[INFO] 2018-01-23 15:04:34.508 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]34 - className:TestBean.class 
+[INFO] 2018-01-23 15:04:39.803 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public 
+[INFO] 2018-01-23 15:04:57.785 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public 
+[INFO] 2018-01-23 15:05:00.221 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public 
+[INFO] 2018-01-23 15:05:05.407 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public 
+[INFO] 2018-01-23 15:05:05.408 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]40 - map大小:4 
+[INFO] 2018-01-23 15:05:30.050 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]30 - classFileFullName:com.gwg.java.core.bridgemethod.B 
+[INFO] 2018-01-23 15:05:30.060 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]32 - lastDotIndex:30 
+[INFO] 2018-01-23 15:05:30.060 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]34 - className:B.class 
+[INFO] 2018-01-23 15:05:32.923 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public 
+[INFO] 2018-01-23 15:05:49.278 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public 
+[INFO] 2018-01-23 15:05:52.216 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public 
+[INFO] 2018-01-23 15:05:54.381 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public volatile 
+[INFO] 2018-01-23 15:06:00.485 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]46 - access:public volatile 
+[INFO] 2018-01-23 15:06:00.485 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]40 - map大小:3 
+[INFO] 2018-01-23 15:06:30.099 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]30 - classFileFullName:com.gwg.java.core.bridgemethod.B 
+[INFO] 2018-01-23 15:06:30.106 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]32 - lastDotIndex:30 
+[INFO] 2018-01-23 15:06:30.106 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]34 - className:B.class 
+[INFO] 2018-01-23 15:06:30.120 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:<init> 
+[INFO] 2018-01-23 15:06:32.673 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:06:32.684 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method1 
+[INFO] 2018-01-23 15:06:34.561 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:06:34.566 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method2 
+[INFO] 2018-01-23 15:06:38.067 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:06:38.068 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method2 
+[INFO] 2018-01-23 15:06:40.813 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public volatile 
+[INFO] 2018-01-23 15:06:40.814 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method1 
+[INFO] 2018-01-23 15:06:42.507 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public volatile 
+[INFO] 2018-01-23 15:06:42.507 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]40 - map大小:3 
+[INFO] 2018-01-23 15:07:18.276 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]30 - classFileFullName:com.gwg.java.core.bridgemethod.B 
+[INFO] 2018-01-23 15:07:18.286 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]32 - lastDotIndex:30 
+[INFO] 2018-01-23 15:07:18.286 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]34 - className:B.class 
+[INFO] 2018-01-23 15:07:18.299 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:<init> 
+[INFO] 2018-01-23 15:07:21.030 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:07:21.042 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method1 
+[INFO] 2018-01-23 15:07:22.023 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:07:22.030 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method2 
+[INFO] 2018-01-23 15:07:22.795 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:07:22.796 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method2 
+[INFO] 2018-01-23 15:07:23.697 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public volatile 
+[INFO] 2018-01-23 15:07:23.698 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法名称:method1 
+[INFO] 2018-01-23 15:07:24.977 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public volatile 
+[INFO] 2018-01-23 15:07:24.979 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]40 - map大小:3 
+[INFO] 2018-01-23 15:08:13.595 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]30 - classFileFullName:com.gwg.java.core.bridgemethod.B 
+[INFO] 2018-01-23 15:08:13.601 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]32 - lastDotIndex:30 
+[INFO] 2018-01-23 15:08:13.602 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]34 - className:B.class 
+[INFO] 2018-01-23 15:08:13.613 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public方法名称:<init> 
+[INFO] 2018-01-23 15:08:15.859 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:08:15.871 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public方法名称:method1 
+[INFO] 2018-01-23 15:08:16.544 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:08:16.548 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public方法名称:method2 
+[INFO] 2018-01-23 15:08:19.095 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:08:19.096 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public volatile方法名称:method2 
+[INFO] 2018-01-23 15:08:24.168 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public volatile 
+[INFO] 2018-01-23 15:08:24.168 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public volatile方法名称:method1 
+[INFO] 2018-01-23 15:08:27.943 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public volatile 
+[INFO] 2018-01-23 15:08:27.944 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]40 - map大小:3 
+[INFO] 2018-01-23 15:12:33.945 [main] [com.gwg.asm.methodparam.MethodParamNameTest]56 - classFileFullName:com.gwg.asm.methodparam.TestBean 
+[INFO] 2018-01-23 15:12:33.949 [main] [com.gwg.asm.methodparam.MethodParamNameTest]58 - lastDotIndex:23 
+[INFO] 2018-01-23 15:12:33.949 [main] [com.gwg.asm.methodparam.MethodParamNameTest]60 - className:TestBean.class 
+[INFO] 2018-01-23 15:12:33.956 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public方法名称:<init> 
+[INFO] 2018-01-23 15:12:33.957 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:12:33.963 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public方法名称:<init> 
+[INFO] 2018-01-23 15:12:33.964 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:12:33.969 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public方法名称:setName 
+[INFO] 2018-01-23 15:12:33.969 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:12:33.969 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]38 - 方法访问修饰符：public方法名称:getName 
+[INFO] 2018-01-23 15:12:33.969 [main] [com.gwg.asm.methodparam.ParameterNameDiscoveringVisitor]47 - access:public 
+[INFO] 2018-01-23 15:12:33.970 [main] [com.gwg.asm.methodparam.MethodParamNameTest]66 - map大小:4 
+[INFO] 2018-01-23 22:51:11.313 [main] [com.gwg.asm.methodparam.MethodParamNameTest]56 - classFileFullName:com.gwg.asm.methodparam.TestBean 
+[INFO] 2018-01-23 22:51:11.323 [main] [com.gwg.asm.methodparam.MethodParamNameTest]58 - lastDotIndex:23 
+[INFO] 2018-01-23 22:51:11.324 [main] [com.gwg.asm.methodparam.MethodParamNameTest]60 - className:TestBean.class 
+[INFO] 2018-01-27 11:08:33.183 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]56 - 类中拥有的方法数量：13 
+[INFO] 2018-01-27 11:09:25.727 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]56 - 类中拥有的方法数量：13 
+[INFO] 2018-01-27 11:17:42.994 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]56 - 类中拥有的方法数量：13 
+[INFO] 2018-01-27 11:20:07.603 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]56 - 类中拥有的方法数量：13 
+[INFO] 2018-01-27 13:56:42.787 [main] [com.gwg.java.core.bridgemethod.BridgeMethodTest]59 - 类中拥有的方法数量：13 

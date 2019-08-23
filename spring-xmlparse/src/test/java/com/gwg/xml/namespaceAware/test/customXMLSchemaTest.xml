@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.example.org/CustomXMLSchema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.example.org/CustomXMLSchema/beans 
+              src/test/java/com/gwg/xml/namespaceAware/test/CustomXMLSchema.xsd">
+  <!-- 测试： -->
+  <bean  id="myTestBean" test="" name="myTestBean" class="com.gwg.hello.MyTestBean" />
+  <test  id="myTestBean" test="" name="myTestBean" class="com.gwg.hello.MyTestBean" />
+
+</beans>

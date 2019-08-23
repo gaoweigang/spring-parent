@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+  <!-- 如下每种情况处理逻辑不一样 -->
+  <!-- 使用无参的构造函数 -->
+ <bean  id="beanA"  class="com.gwg.spring.instantiation.constructor.test.BeanA" autowire="default"    scope ="singleton">
+  </bean>
+
+  
+  <bean  id="beanATwo"  class="com.gwg.spring.instantiation.constructor.test.BeanA" scope="singleton">
+      <constructor-arg name="name" value="gaoweigang" type="java.lang.String"></constructor-arg>
+  </bean>
+  
+  
+  <!-- 使用index属性明确指定构造函数参数索引 -->
+   <bean  id="beanAThree"  class="com.gwg.spring.instantiation.constructor.test.BeanA" scope="singleton">
+      <!-- 由于自动装配仅适用于引用类型,普通类型还需要手动进行注入 -->
+      <constructor-arg name="age" value="1"></constructor-arg>
+  </bean>
+  
+  <!-- 通过index明确指定构造方法参数索引，在指定参数的时候也可以指定参数的类型 -->
+  <bean  id="beanAFour"  class="com.gwg.spring.instantiation.constructor.test.BeanA" scope="singleton">
+      <constructor-arg index="1" value="1"></constructor-arg>
+      <constructor-arg index="0" value="gaoweigang" ></constructor-arg>
+  </bean>
+  
+   <!-- 这个比较有意思？ -->
+   <bean  id="beanAFix"  class="com.gwg.spring.instantiation.constructor.test.BeanB" scope="singleton">
+      <constructor-arg name="" value="10"></constructor-arg>
+  </bean>
+  
+   <!-- 这个比较有意思？ -->
+   <bean  id="beanBSix"  class="com.gwg.spring.instantiation.constructor.test.BeanB" scope="singleton">
+      <constructor-arg name="weight" value="10"></constructor-arg>
+  </bean>
+  
+   <bean  id="beanCSeven"  class="com.gwg.spring.instantiation.constructor.test.BeanC" scope="singleton">
+      <constructor-arg  value="10"></constructor-arg>
+  </bean>
+  
+  <!-- 是否允许 argsToUse > paramType.length  ？ 不允许 -->
+  <bean  id="beanDEight"  class="com.gwg.spring.instantiation.constructor.test.BeanD" scope="singleton">
+      <constructor-arg  value="10"></constructor-arg>
+      <constructor-arg  name="age" value="10"></constructor-arg>
+  </bean>
+  
+
+</beans>

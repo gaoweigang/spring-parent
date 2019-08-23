@@ -1,0 +1,20 @@
+###System.getProperties()与System.getenv()详解
+
+System.getenv()：方法才是真正的获得系统环境变量，比如Path之类。其方法命名方式有违Sun命名规范其实。
+
+System.getProperties()：getProperties中所谓的"system properties"其实是指"java system"，而非"operation system"，概念完全不同，
+使用getProperties获得的其实是虚拟机的变量形如： -Djavaxxxx。
+
+
+###
+JavaBeans是Java中一种特殊的类，可以将多个对象封装到一个对象（bean）中。 特点是可序列化，提供无参构造器，
+提供getter方法和setter方法访问对象的属性。 名称中的“Bean”是用于Java的可重用软件组件的惯用叫法。
+
+
+###
+二，jdk1.8中如何获取构造函数参数名称？
+Spring使用LocalVariableTableParameterNameDiscoverer来获取构造方法的参数名称
+
+三，使用字节码框架，读取每个方法栈帧中的局部变量表，来获取方法参数的名称。
+
+四，ASM框架学习

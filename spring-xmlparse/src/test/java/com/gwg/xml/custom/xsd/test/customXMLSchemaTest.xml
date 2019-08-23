@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.example.org/CustomXMLSchema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.example.org/CustomXMLSchema 
+              src/test/java/com/gwg/xml/custom/xsd/test/CustomXMLSchema.xsd">
+  <!-- 测试：添加一个在XML Schema文件中没有规定的属性test="",则会报错(元素 'bean' 中不允许出现属性 'test') -->
+  <bean  id="myTestBean" name="myTestBean" class="com.gwg.hello.MyTestBean"></bean>
+  
+
+</beans>

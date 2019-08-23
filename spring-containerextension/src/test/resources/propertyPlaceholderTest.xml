@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+    <!-- spring引入外部属性文件 -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>beans.properties</value>
+		</property>
+		<!-- 设置占位符的前缀 -->
+		<property name="placeholderPrefix" value="*{"></property>
+		<!-- 设置占位符的后缀 -->
+		<property name="placeholderSuffix" value="}"></property>
+		<property name="fileEncoding" value="utf-8" />
+	</bean>
+
+	<!-- 单例 -->
+	<bean id="testBean"
+		class="com.gwg.spring.propertyplaceholder.test.TestBean">
+		<property name="name" value="*{person.name}"></property>
+		<property name="age" value="*{person.age}"></property>
+	</bean>
+
+
+
+</beans>

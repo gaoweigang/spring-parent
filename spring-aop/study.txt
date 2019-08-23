@@ -1,0 +1,5 @@
+1.Spring究竟是如何实现AOP的呢？首先我们知道，Spring支持注解的AOP是由一个配置控制的，也就是<aop:aspectj-autoproxy />,当在配置文件
+中声明了这句配置的时候，Spring就会支持注解的AOP,那么我们的分析就从这句注解开始。
+
+思考：
+1.<aop:aspectj-autoproxy />是在什么时候被解析的，什么时候注册了对应了解析器

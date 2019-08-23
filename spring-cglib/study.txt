@@ -1,0 +1,8 @@
+1.cglib官方网址
+https://github.com/cglib/cglib
+https://github.com/cglib/cglib.git
+
+Byte Code Engineering Library
+http://commons.apache.org/proper/commons-bcel/
+
+3.Hamcrest

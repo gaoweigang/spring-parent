@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-asm/spring-asm.iml" filepath="$PROJECT_DIR$/spring-asm/spring-asm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-beanload/spring-beanload.iml" filepath="$PROJECT_DIR$/spring-beanload/spring-beanload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cglib/spring-cglib.iml" filepath="$PROJECT_DIR$/spring-cglib/spring-cglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-containerextension/spring-containerextension.iml" filepath="$PROJECT_DIR$/spring-containerextension/spring-containerextension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-parent.iml" filepath="$PROJECT_DIR$/spring-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-pattern/spring-pattern.iml" filepath="$PROJECT_DIR$/spring-pattern/spring-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-xmlparse/spring-xmlparse.iml" filepath="$PROJECT_DIR$/spring-xmlparse/spring-xmlparse.iml" />
+    </modules>
+  </component>
+</project>

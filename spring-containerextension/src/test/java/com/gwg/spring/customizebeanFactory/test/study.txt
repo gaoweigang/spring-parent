@@ -1,0 +1,6 @@
+1.spring对同一配置文件中相同id或者name的两个或以上的bean时，做直接抛异常的处理，而对不同配置文件中相同id或者名称的bean，只会在打印日志级别为info的信息，
+如果是同名称的不同定义的,信息内容大概为"Overriding bean definition for bean 'beanA'  with a different definition : replacing 'beanA' with 'beanB' ".
+如果是同名称的同定义的,信息内容大概为"Overriding bean definition for bean 'beanA' : replacing 'beanA' with 'beanB' ".
+
+
+参考：http://blog.csdn.net/zgmzyr/article/details/39380477

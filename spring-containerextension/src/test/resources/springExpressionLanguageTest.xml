@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+
+    <bean id="cat" class="com.gwg.spring.springexpressionlanguage.test.Cat" />
+	<!-- 单例 -->
+	<bean id="testBean" class="com.gwg.spring.springexpressionlanguage.test.TestBean">
+	    <!--Spring Expression Language使用#{...}作为定界符，所有在大括号的字符都将被认为是SpEL，使用格式如下：
+	      相当于 <property name="cat" ref="cat"></property>
+	    -->
+	    <property name="cat" value="#{cat}"></property>
+	</bean>
+
+
+
+</beans>

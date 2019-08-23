@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "src/test/java/com/gwg/xml/dtd/test/custom.dtd">
+<beans>
+
+  <!-- 测试：添加一个在DTD中没有规定的属性test="",则校验会报错(必须为元素类型 "bean" 声明属性 "test") -->
+  <bean  id="myTestBean" name="myTestBean" class="com.gwg.hello.MyTestBean" />
+  
+
+</beans>

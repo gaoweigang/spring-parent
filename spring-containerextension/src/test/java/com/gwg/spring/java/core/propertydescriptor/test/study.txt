@@ -1,0 +1,3 @@
+### PropertyDescriptor 描述 Java Bean 通过一对存储器方法导出的一个属性
+
+http://www.blogjava.net/wiflish/archive/2012/12/18/101964.html

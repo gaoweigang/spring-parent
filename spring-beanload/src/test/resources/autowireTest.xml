@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+           
+    	<!-- 按构造器参数类型自动装配-constructor -->
+	<bean id="autowireByConstructor" class="com.gwg.spring.autowire.test.AutowireByConstructor" autowire="constructor" >
+	    <!-- 由于自动装配仅适用于引用类型,普通类型还需要手动进行注入 -->
+		<constructor-arg name="cat" ref="cat"></constructor-arg>
+	</bean>
+
+    <!-- 按构造器参数类型自动装配-constructor -->
+	<bean id="autowireByConstructor" class="com.gwg.spring.autowire.test.AutowireByConstructor" autowire="constructor" >
+	    <!-- 手动装配；在这里我们配置autowire="constructor"，即构造函数自动装配，所以手动装配可以省略 -->
+		<!-- <constructor-arg name="cat" ref="cat"></constructor-arg> -->
+	</bean>
+	
+
+    <!-- 不使用自动装配-no / default-->
+    <bean id="autowireByNo" class="com.gwg.spring.autowire.test.AutowireByNo" autowire="no">
+         <property name="cat" ref="cat"></property>
+    </bean>
+    
+    
+    <!-- 按照名字进行自动装配-byName -->
+	<bean id="autowireByName" class="com.gwg.spring.autowire.test.AutowireByName" autowire="byName"></bean>
+
+    <!-- 按照类型进行自动装配-byType -->
+	<bean id="autowireByType" class="com.gwg.spring.autowire.test.AutowireByType" autowire="byType" ></bean>
+	
+	
+	<!-- 默认的装配类型： -->
+	<bean id="defaultAutowireType" class="com.gwg.spring.autowire.test.AutowireByNo"></bean>
+	
+	<!-- 放到最后面，测试构造函数自动装配 -->
+	<bean id="cat" class="com.gwg.spring.autowire.test.Cat"></bean>
+	
+
+</beans>
